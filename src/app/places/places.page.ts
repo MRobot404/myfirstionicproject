@@ -15,4 +15,8 @@ places = [];
    this.places = this.placeService.getPlaces();
   }
 
+  ionViewWillEnter(){
+this.places = this.placeService.getPlaces();
+  }
+
 }
